@@ -1,0 +1,28 @@
+.innerbarwrapper{
+    width: 180px;
+    height: 36px;
+    background-color: #FFFFFF;
+    border: 1px solid #C0C4CC;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 2px !important;
+   
+}
+.searchIcon{
+    height: 14px;
+    width: 14px;
+    margin: 0 10px !important;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+input::placeholder{
+    color: #C0C4CC;
+}
+.innerbarwrapper >input{
+    border: none;
+    width: 100%;
+
+}
